@@ -57,5 +57,29 @@
       "url": "/about",
       "icons": [{ "src": "assets/icons/192x192.png", "sizes": "192x192" }]
     }
+  ],
+  "widgets": [
+    {
+      "name": "Hello Build 2023",
+      "tag": "helloWorld",
+      "ms_ac_template": "ac.json",
+      "data": "data.json",
+      "description": "A simple widget example.",
+      "screenshots": [
+        {
+          "src": "assets/screenshots/screen.png",
+          "sizes": "1617x1012",
+          "type": "image/png",
+          "label": "Test screenshot"
+        }
+      ],
+      "icons": [
+        {
+          "src": "assets/icons/48x48.png",
+          "sizes": "48x48",
+          "type": "image/png"
+        }
+      ]
+    }
   ]
 }
