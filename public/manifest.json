@@ -1,12 +1,12 @@
 {
   "id": "/",
   "scope": "/",
-  "name": "PWA Starter",
+  "name": "Build2023 PWA demo",
   "display": "standalone",
   "start_url": "/",
-  "short_name": "starter",
+  "short_name": "//B",
   "theme_color": "#E1477E",
-  "description": "This is a PWA Starter app",
+  "description": "Build2023 PWA demo with widget enabled",
   "orientation": "any",
   "background_color": "#E1477E",
   "related_applications": [],
@@ -60,7 +60,7 @@
   ],
   "widgets": [
     {
-      "name": "Hello Build 2023",
+      "name": "Hello World",
       "tag": "helloWorld",
       "ms_ac_template": "ac.json",
       "data": "data.json",
@@ -69,15 +69,13 @@
         {
           "src": "assets/screenshots/screen.png",
           "sizes": "1617x1012",
-          "type": "image/png",
           "label": "Test screenshot"
         }
       ],
       "icons": [
         {
           "src": "assets/icons/48x48.png",
-          "sizes": "48x48",
-          "type": "image/png"
+          "sizes": "48x48"
         }
       ]
     }

@@ -4,6 +4,7 @@ importScripts(
 
 // This is your Service Worker, you can put any of your custom Service Worker
 // code in this file, above the `precacheAndRoute` line.
+
 // When widget is installed/pinned, push initial state.
 self.addEventListener('widgetinstall', (event) => {
     event.waitUntil(updateWidget(event));
@@ -55,4 +56,5 @@ const updateName = async (event) => {
     // Push payload to widget.
     await self.widgets.updateByInstanceId(event.instanceId, payload);
 }
+
 workbox.precaching.precacheAndRoute(self.__WB_MANIFEST || []);
